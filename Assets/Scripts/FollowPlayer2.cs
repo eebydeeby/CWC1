@@ -4,7 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FollowPlayer : MonoBehaviour
+public class FollowPlayer2 : MonoBehaviour
 {
     public GameObject player; // Public variable for handling which object to follow
     private Vector3 offset; // Handles how far to distance camera away from player object
@@ -14,7 +14,7 @@ public class FollowPlayer : MonoBehaviour
     {
         // Variable for handling camera control input
 		// Jump (.) key is used to move camera
-        cameraInput = Input.GetAxis("Jump");
+        cameraInput = Input.GetAxis("Jump 2");
 		
         // Checks if player is holding down the jump key
         if (cameraInput == 0)
