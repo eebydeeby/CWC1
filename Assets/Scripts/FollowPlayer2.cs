@@ -1,4 +1,4 @@
-// Script for handling player camera input and moving camera based on distance (offset) from player vehicle's position
+// Script for handling player camera input and moving camera based on distance (offset) from player 2 vehicle's position
 
 using System.Collections;
 using System.Collections.Generic;

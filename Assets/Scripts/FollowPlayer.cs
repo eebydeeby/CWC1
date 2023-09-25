@@ -13,7 +13,7 @@ public class FollowPlayer : MonoBehaviour
     void LateUpdate()
     {
         // Variable for handling camera control input
-		// Jump (.) key is used to move camera
+		// Jump (Left Shift) key is used to move camera
         cameraInput = Input.GetAxis("Jump");
 		
         // Checks if player is holding down the jump key

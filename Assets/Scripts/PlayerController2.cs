@@ -1,4 +1,4 @@
-// Script to handle control and movement of player vehicle
+// Script to handle control and movement of player 2 vehicle
 
 using System.Collections;
 using System.Collections.Generic;
