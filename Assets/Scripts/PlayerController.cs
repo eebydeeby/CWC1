@@ -1,15 +1,16 @@
+// Script to handle control and movement of player vehicle
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-	private float speed = 20.0f;
-	private float turnSpeed = 45.0f;
-	private float horizontalInput;
-	private float forwardInput;
+	private float speed = 20.0f; // Movement speed of player vehicle
+	private float turnSpeed = 45.0f; // How fast the vehicle turns
+	private float horizontalInput; // Variable for receiving turn controls
+	private float forwardInput; // Variable for receiving back/forth controls
 
-    // Update is called once per frame
     void Update()
     {
 		// Sets up input parameters using Unity input API
